@@ -16,11 +16,11 @@ Consider checking out the following links before starting the assignment:
 
 In the project directory, you can run:
 
-### `yarn` or `npm i`
+### `npm i` or `yarn`
 
-to install dependencies, (you'll need [yarn](https://yarnpkg.com/) installed). Feel free to use `npm` instead of `yarn` if you wish.
+to install dependencies. Feel free to use `yarn` instead of `npm` if you wish (you'll need [yarn](https://yarnpkg.com/) installed).
 
-### `yarn start` or `npm start`
+### `npm start` or `yarn start`
 
 Will run storybook on your computer
 
