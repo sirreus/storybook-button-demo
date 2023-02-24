@@ -1,0 +1,50 @@
+@import url("../colors.css");
+
+.storybook-button {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  line-height: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: fit-content;
+  height: 30px;
+  padding: 7.5px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.storybook-button--primary {
+  border: 0;
+  color: var(--white);
+  background-color: var(--gold-primary);
+}
+.storybook-button--primary:hover {
+  background-color: var(--gold-highlighted);
+}
+.storybook-button--primary.disabled {
+  color: var(--grey500);
+  background: var(--grey300);
+  cursor: default;
+}
+
+.storybook-button--secondary {
+  color: var(--gold-primary);
+  background-color: var(--white);
+  border: 1px solid var(--gold-primary);
+  border-radius: 5px;
+}
+.storybook-button--secondary:hover {
+  background-color: var(--gold-white-highlighted);
+}
+.storybook-button--secondary.disabled {
+  color: var(--grey500);
+  background: var(--grey200);
+  border: 1px solid var(--grey500);
+  cursor: default;
+}
