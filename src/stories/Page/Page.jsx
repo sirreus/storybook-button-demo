@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
-import Button from "./Button";
-import Checkbox from "./components/Checkbox";
-import "./page.css";
+import Button from "../Button";
+import Checkbox from "../components/Checkbox";
+import "./styles.css";
 
 export const Page = () => {
   const [typeNumber, setTypeNumber] = useState(0);
@@ -59,6 +59,7 @@ export const Page = () => {
           icon={typeNumber === 1}
           caret={typeNumber === 2}
           onClick={changeButtonTypeNumber}
+          iconColor={typeNumber !== 0 && !primary ? "gold" : null}
         />
         <p>{text}</p>
 
